@@ -7,6 +7,7 @@ int main()
 {
     double a, b, c;
     // Prompt the user to enter three real numbers for the quadratic equation
+    cout << "Enter three real numbers for the quadratic equation (a, b, c): ";
     cin >> a >> b >> c;
     // Calculate the two roots ofthe quadratic equation with the given coefficients a, b, and c
     double firstroot = (-b + sqrt(pow(b, 2) - 4 * a * c)) / (2 * a);
